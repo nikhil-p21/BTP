@@ -89,7 +89,7 @@ extern int yydebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 14 "./src/fsmda.y"
+#line 16 "./src/fsmda.y"
 
 	char* string;
 	struct normalized_cell* norm;
